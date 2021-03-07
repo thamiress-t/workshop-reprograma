@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Workshop - Desafio</title>
+    <link rel="stylesheet" type="text/css" href="css/desafio2.css" />
+  </head>
+  <body>
+    <h1 class="title">Calculadora de Custo de Projeto</h1>
+    <div class="calculadora">
+      <div class="inputs">
+        <div class="valor-hora">
+          <p>Quanto custa uma hora de trabalho?</p>
+          <label for="valor-hora">Valor Hora</label>
+          <input type="number" id="valor-hora" placeholder="Digite aqui"/>
+        </div>
+        <div class="horas-projeto">
+          <p>Quantas horas de trabalho serão necessárias para o projeto?</p>
+          <label for="horas-projeto">Horas Projeto</label>
+          <input type="number" id="horas-projeto" placeholder="Digite aqui"/>
+        </div>
+      </div>
+      <div class="resposta">
+        <span id="resposta">Resposta:  </span>
+      </div>
+    </div>
+    <button onclick="calcular()">Calcular Custo</button>
+    <a class= "voltar" href="index.html">Voltar</a>
+    
+    <p> PS: o CSS e HTML deste site foram melhorados em parceria com a candidata da Oficina de Front-End Larissa Fernanda dos Santos Andrade :) </p>
+    <script type="text/javascript" src="js/desafio.js"></script>
+
+  </body>
+</html>
